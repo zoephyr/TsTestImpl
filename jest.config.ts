@@ -11,10 +11,10 @@ const config: Config.InitialOptions = {
     collectCoverageFrom: [
         `${baseDir}/**/*.ts`
     ],
-    testMatch:[
-        `${baseTestDir}/server_app/**/*test.ts`,
-        `${baseTestDir}/server_app2/**/*test.ts`,
-    ]
+    // testMatch:[
+    //     `${baseTestDir}/server_app/**/*test.ts`,
+    //     `${baseTestDir}/server_app2/**/*test.ts`,
+    // ]
 }
 
 export default config;
